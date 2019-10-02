@@ -1,0 +1,56 @@
+﻿АКОС полезности:
+
+ASM:
+https://godbolt.org																					скомпилировать C в ASM
+https://wiki.cheatengine.org/index.php?title=Assembler:Commands:CMOVNC								условное перемещение
+https://www.felixcloutier.com/x86/cmps:cmpsb:cmpsw:cmpsd:cmpsq										про сравнение и вообще хороший сайт
+https://github.com/petuhovskiy/acos																	записи Артурчика
+https://github.com/hseos/hseos-course/tree/master/2018/08-asm1										товарищ ГлавГайд
+https://github.com/Haidaansko/CAOS-2017-18															если очень хочется списать
+https://www.quora.com/What-is-al-in-a-mov-instruction-in-Assembly									расположение байтовых штук в регистрах
+https://stackoverflow.com/questions/9317922/what-does-the-movzbl-instruction-do-in-ia-32-att-syntax	про MOVZBL
+http://it.kgsu.ru/Assembler/asm0008.html															хороший сайт про asm
+http://asmworld.ru/uchebnyj-kurs/020-stek/															Учебный курс. Часть 20. Стек | Asmworld
+http://asmworld.ru/spravochnik-komand/sbb/															SBB | Asmworld
+http://asmworld.ru/uchebnyj-kurs/022-vyvod-chisel-na-konsol/
+
+C:
+http://www.cplusplus.com/reference/cstdlib/strtol/													про strtol
+https://stackoverflow.com/questions/38685724/difference-between-ms-and-s-scanf						про %ms, чтение строки любой длины
+https://www.lancaster.ac.uk/~simpsons/char/types/int32												макросы для типов фиксированной длины
+http://www.cplusplus.com/reference/cinttypes/														про сами эти типы
+http://cpp.com.ru/shildt_spr_po_c/13/scanf.html														спецификации scanf
+http://www.codenet.ru/progr/cpp/spr/328.php															спецификации printf (1)
+https://docs.microsoft.com/en-us/previous-versions/25366k66(v=vs.140)								спецификации printf (2)
+https://www.tutorialspoint.com/c_standard_library/ctype_h.htm										про встроенные функции проверки класса символа
+https://www.rapidtables.com/convert/number/hex-to-decimal.html										поиграться с системами счисления
+
+
+https://ru.wikibooks.org/wiki/%D0%90%D1%81%D1%81%D0%B5%D0%BC%D0%B1%D0%BB%D0%B5%D1%80_%D0%B2_Linux_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%BE%D0%B2_C#%D0%9F%D1%80%D1%8F%D0%BC%D0%B0%D1%8F_%D0%B8%D0%BB%D0%B8_%D0%B0%D0%B1%D1%81%D0%BE%D0%BB%D1%8E%D1%82%D0%BD%D0%B0%D1%8F_%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%D1%86%D0%B8%D1%8F
+Вот тут есть раздел где кратко и содержательно про отладку
+
+Anton Anikushin, [06.02.19 16:42]
+Можно краткую справку как дебажить в гдб?
+Илья Паузнер, [06.02.19 16:44]
+gcc kek -g -okekapp
+gdb ./kekapp
+внутри:
+break kek:28 - поставить breakpoint на строке 28 файла kek
+run - запустить
+step - выполнить одну строку
+print $eax - вывести eax
+
+
+и прокси какой-нибудь http://webproxy.to/
+http://x86.renejeschke.de/
+https://web.archive.org/web/*/http://x86.renejeschke.de/
+
+https://ru.wikibooks.org/wiki/%D0%90%D1%81%D1%81%D0%B5%D0%BC%D0%B1%D0%BB%D0%B5%D1%80_%D0%B2_Linux_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%BE%D0%B2_C#%D0%9F%D1%80%D1%8F%D0%BC%D0%B0%D1%8F_%D0%B8%D0%BB%D0%B8_%D0%B0%D0%B1%D1%81%D0%BE%D0%BB%D1%8E%D1%82%D0%BD%D0%B0%D1%8F_%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%D1%86%D0%B8%D1%8F
+
+http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html
+
+it.kgsu.ru/Assembler/oglav.html
+http://it.kgsu.ru/Assembler/oglav.html
+
+Учебный курс. Часть 10. Сложение и вычитание с переносом | Asmworld
+http://asmworld.ru/uchebnyj-kurs/010-slozhenie-i-vychitanie-s-perenosom/
